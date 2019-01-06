@@ -1,0 +1,4 @@
+﻿checknetisolation LoopbackExempt -a -n=Microsoft.Win32WebViewHost_cw5n1h2txyewy
+The above command must be run to allow the webview control to access localhost. See https://github.com/windows-toolkit/WindowsCommunityToolkit/issues/2226
+
+Can be removed when use of the httpserver is removed. This will require use of the stream api on the webview in CodeEditor.

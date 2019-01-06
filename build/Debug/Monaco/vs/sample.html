@@ -1,0 +1,14 @@
+<html>
+<div id="container" style="height:100%;"></div>
+<script src="loader.js"></script>
+<script src="./editor/editor.main.js"></script>
+<script>
+
+    monaco.editor.create(document.getElementById("container"), {
+        value: "function hello() {\n\talert('Hello world!');\n}",
+        language: "javascript"
+    });
+
+</script>
+
+</html>

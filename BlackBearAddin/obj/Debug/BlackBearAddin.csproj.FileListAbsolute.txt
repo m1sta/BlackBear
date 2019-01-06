@@ -1,0 +1,40 @@
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\build\Debug\ExcelPythonAddIn-AddIn.dna
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\build\Debug\ExcelPythonAddIn.dll.config
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\build\Debug\ExcelPythonAddIn.dll
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\build\Debug\ExcelPythonAddIn.pdb
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\ExcelPythonAddIn\obj\Debug\ExcelPythonAddIn.CodeEditor.resources
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\ExcelPythonAddIn\obj\Debug\ExcelPythonAddIn.ExecutionErrorReportForm.resources
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\ExcelPythonAddIn\obj\Debug\ExcelPythonAddIn.Properties.Resources.resources
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\ExcelPythonAddIn\obj\Debug\ExcelPythonAddIn.SettingsForm.resources
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\ExcelPythonAddIn\obj\Debug\BlackBearAddin.csproj.GenerateResource.cache
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\ExcelPythonAddIn\obj\Debug\BlackBearAddin.csproj.CoreCompileInputs.cache
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\ExcelPythonAddIn\obj\Debug\BlackBearAddin.csproj.CopyComplete
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\ExcelPythonAddIn\obj\Debug\ExcelPythonAddIn.dll
+C:\Users\jblackford\Downloads\ExcelPythonAddIn (1)\ExcelPythonAddIn\obj\Debug\ExcelPythonAddIn.pdb
+C:\Users\jblackford\Downloads\BlackBearSolution\BlackBearAddIn\obj\Debug\ExcelPythonAddIn.CodeEditor.resources
+C:\Users\jblackford\Downloads\BlackBearSolution\BlackBearAddIn\obj\Debug\ExcelPythonAddIn.ExecutionErrorReportForm.resources
+C:\Users\jblackford\Downloads\BlackBearSolution\BlackBearAddIn\obj\Debug\ExcelPythonAddIn.SettingsForm.resources
+C:\Users\jblackford\Downloads\BlackBearSolution\BlackBearAddIn\obj\Debug\BlackBearAddin.csproj.GenerateResource.cache
+C:\Users\jblackford\Downloads\BlackBearSolution\build\Debug\BlackBearAddin.dna
+C:\Users\jblackford\Downloads\BlackBearSolution\build\Debug\ExcelPythonAddIn.dll.config
+C:\Users\jblackford\Downloads\BlackBearSolution\build\Debug\ExcelPythonAddIn.dll
+C:\Users\jblackford\Downloads\BlackBearSolution\build\Debug\ExcelPythonAddIn.pdb
+C:\Users\jblackford\Downloads\BlackBearSolution\BlackBearAddIn\obj\Debug\ExcelPythonAddIn.Properties.Resources.resources
+C:\Users\jblackford\Downloads\BlackBearSolution\BlackBearAddIn\obj\Debug\BlackBearAddin.csproj.CoreCompileInputs.cache
+C:\Users\jblackford\Downloads\BlackBearSolution\BlackBearAddIn\obj\Debug\BlackBearAddin.csproj.CopyComplete
+C:\Users\jblackford\Downloads\BlackBearSolution\BlackBearAddIn\obj\Debug\ExcelPythonAddIn.dll
+C:\Users\jblackford\Downloads\BlackBearSolution\BlackBearAddIn\obj\Debug\ExcelPythonAddIn.pdb
+C:\Users\jblackford\Downloads\BlackBearSolution\BlackBearAddIn\obj\Debug\BlackBearAddin.csprojAssemblyReference.cache
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\build\Debug\BlackBearAddin.dna
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\build\Debug\ExcelPythonAddIn.dll.config
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\build\Debug\ExcelPythonAddIn.dll
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\build\Debug\ExcelPythonAddIn.pdb
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\BlackBearAddIn\obj\Debug\ExcelPythonAddIn.CodeEditor.resources
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\BlackBearAddIn\obj\Debug\ExcelPythonAddIn.Properties.Resources.resources
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\BlackBearAddIn\obj\Debug\ExcelPythonAddIn.SettingsForm.resources
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\BlackBearAddIn\obj\Debug\BlackBearAddin.csproj.GenerateResource.cache
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\BlackBearAddIn\obj\Debug\BlackBearAddin.csproj.CoreCompileInputs.cache
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\BlackBearAddIn\obj\Debug\BlackBearAddin.csproj.CopyComplete
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\BlackBearAddIn\obj\Debug\ExcelPythonAddIn.dll
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\BlackBearAddIn\obj\Debug\ExcelPythonAddIn.pdb
+C:\Users\jblackford\Dropbox (ITNewcom)\Python\PythonExcelAddin\BlackBearAddIn\obj\Debug\BlackBearAddin.csprojAssemblyReference.cache

@@ -1,0 +1,135 @@
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" data-name="./vs/editor/editor.main" href="./vs/editor/editor.main.css">
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        #container {
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <script>var require = { paths: { 'vs': './vs' } };</script>
+    <script src="./vs/loader.js"></script>
+    <script src="./vs/editor/editor.main.nls.js"></script>
+    <script src="./vs/editor/editor.main.js"></script>
+
+
+    <script>
+
+        function doc_keyUp(e) {
+
+            // this would test for whichever key is 40 and the ctrl key at the same time
+            if (e.keyCode == 27) {
+                // call your function to do the thing
+                window.external.notify('execute script')
+                console.log("hotkey")
+            }
+        }
+        // register the handler 
+        document.addEventListener('keyup', doc_keyUp, false);
+
+        function createDependencyProposals() {
+            // returning a static list of proposals, not even looking at the prefix (filtering is done by the Monaco editor),
+            // here you could do a server side lookup
+            return [
+                {
+                    label: 'result = sheet["Sheet1"]',
+                    kind: monaco.languages.CompletionItemKind.Snippet,
+                    documentation: "Get the contents of an Excel table as a python dataFrame.",
+                    insertText: 'result = sheet["Sheet1"]'
+                },
+                {
+                    label: 'cell("A1").value = 123',
+                    kind: monaco.languages.CompletionItemKind.Snippet,
+                    documentation: "Set a cell to a specific value. Similar code can be used to read from a specific cell or named range.",
+                    insertText: 'cell("A1").value = 123'
+                },
+                {
+                    label: 'refreshPivots()',
+                    kind: monaco.languages.CompletionItemKind.Snippet,
+                    documentation: "Refresh all pivot tables in the active workbook.",
+                    insertText: 'refreshPivots()'
+                },
+                {
+                    label: 'sheet[this]',
+                    kind: monaco.languages.CompletionItemKind.Snippet,
+                    documentation: "Get or set the contents of the current worksheet. A table will be created if none exists.",
+                    insertText: 'sheet[this]'
+                },
+                {
+                    label: 'result = sql("select * from dataframe")',
+                    kind: monaco.languages.CompletionItemKind.Snippet,
+                    documentation: "Query any any active python variables, including dataframes, using SQLite syntax.",
+                    insertText: 'result = sql("select * from dataframe")'
+                },
+                {
+                    label: 'result = consolidate("folder\\*.xlsx", "Table1")',
+                    kind: monaco.languages.CompletionItemKind.Snippet,
+                    documentation: "Consolidates the data within a folder full of workbooks into a dataframe.",
+                    insertText: 'result = consolidate("folder\\*.xlsx", "Table1")'
+                },
+                {
+                    label: 'template.excel(templatePath, outputPath, replacements)',
+                    kind: monaco.languages.CompletionItemKind.Snippet,
+                    documentation: "Copy an excel workbook, replacing a collection of values. 'Replacements' should be a dictionary.",
+                    insertText: 'template.excel(templatePath, outputPath, replacements)'
+                },
+                {
+                    label: 'template.powerpoint(templatePath, outputPath, replacements, linkPath)',
+                    kind: monaco.languages.CompletionItemKind.Snippet,
+                    documentation: "Copy a powerpoint presentation, replacing a collection of values, and optionally linking to a new excel workbook.",
+                    insertText: 'template.powerpoint(templatePath, outputPath, replacements, linkPath)'
+                },
+                {
+                    label: 'result["example"] = [1,2,3,4,5]',
+                    kind: monaco.languages.CompletionItemKind.Snippet,
+                    documentation: "Adds a column named 'example' to the current worksheet",
+                    insertText: 'result["example"] = [1,2,3,4,5]'
+                }
+            ];
+        }
+
+
+        monaco.languages.registerCompletionItemProvider('python', {
+            provideCompletionItems: function (model, position) {
+                // find out if we are completing a property in the 'dependencies' object.
+                return createDependencyProposals();
+            }
+        });
+
+
+
+        window.editor = monaco.editor.create(document.getElementById('container'), {
+            value: '',
+            language: 'python',
+            automaticLayout: true,
+            minimap: {
+                enabled: false
+            },
+            fontSize: 11
+        });
+
+        function getSource() {
+            return window.editor.getValue();
+        }
+
+        function setSource(newVal) {
+            window.editor.setValue(newVal);
+        }
+    </script>
+
+</body>
+
+</html>

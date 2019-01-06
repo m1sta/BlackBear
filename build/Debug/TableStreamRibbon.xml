@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">
+  <ribbon>
+    <tabs>
+      <tab id="tabTableStream" label="Python" visible="true">
+        <group id="grPyEdit" label="Basic" visible="true">
+          <button id="btnShowEditor"  label="Show Editor"   getImage="GetImage" size="large" onAction="OnPressMe" visible="true" supertip="Displays a python code editor. Any data stored in the variable 'result' will be displayed as a table within the active worksheet." />
+          <button id="btnRefreshTable"  label="Refresh" getImage="GetImage" size="large" onAction="OnPressMe" supertip="Executes any python code embedded in this worksheet. Press the escape key while editing for a quick refresh." />
+        </group>
+ 
+        <group id="grPySettings" label="Advanced" visible="true">
+          <button id="btnViewBefore" label="Refresh  Before" imageMso="LeftArrow2" size="large" onAction="OnPressMe" supertip="Refresh all worksheets that this sheet is dependent upon, then refresh this sheet." />
+          <button id="btnViewAfter" label="Refresh  After" imageMso="RightArrow2" size="large" onAction="OnPressMe" supertip="Refresh this worksheet, then refresh all worksheets that depend up it." />
+
+          <button id="btnSettings"  label="Settings"  getImage="GetImage" size="large" onAction="OnPressMe" />
+
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
